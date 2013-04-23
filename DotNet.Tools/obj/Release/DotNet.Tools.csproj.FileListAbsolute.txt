@@ -1,0 +1,13 @@
+C:\Projects\instalador\2.0\DotNet\DotNet.Tools\bin\Release\DotNet.Tools.dll
+C:\Projects\instalador\2.0\DotNet\DotNet.Tools\bin\Release\DotNet.Tools.pdb
+C:\Projects\instalador\2.0\DotNet\DotNet.Tools\obj\Release\ResolveAssemblyReference.cache
+C:\Projects\instalador\2.0\DotNet\DotNet.Tools\obj\Release\DotNet.Tools.dll
+C:\Projects\instalador\2.0\DotNet\DotNet.Tools\obj\Release\DotNet.Tools.pdb
+C:\Projects\Instalador\2.0\DotNet\DotNet.Tools\bin\Release\RSS.NET.dll
+C:\Development\Instalador\2.0\DotNet\DotNet.Tools\obj\Release\ResolveAssemblyReference.cache
+C:\Development\Instalador\2.0\DotNet\DotNet.Tools\obj\Release\DotNet.Tools.dll
+C:\Development\Instalador\2.0\DotNet\DotNet.Tools\obj\Release\DotNet.Tools.pdb
+C:\Development\Instalador\2.0\DotNet\DotNet.Tools\bin\Release\DotNet.Tools.dll
+C:\Development\Instalador\2.0\DotNet\DotNet.Tools\bin\Release\DotNet.Tools.pdb
+C:\Development\Instalador\2.0\DotNet\DotNet.Tools\obj\Release\DotNet.Tools.UI.Service_UIInstaller.resources
+C:\Development\Instalador\2.0\DotNet\DotNet.Tools\obj\Release\DotNet.Tools.csproj.GenerateResource.Cache

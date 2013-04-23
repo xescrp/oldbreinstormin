@@ -1,0 +1,48 @@
+<Version xmlns="http://tempuri.org/Version.xsd">
+  <Version>
+    <Build>Manual desde PC Local. VS 2005</Build>
+    <FechaIntegracion>2011-03-02T09:44:09.664994+01:00</FechaIntegracion>
+    <UserID>di_rossello2</UserID>
+    <CambiosBBDD />
+    <DescripcionCambios>Archivo Inicial</DescripcionCambios>
+    <CambiosPowerMart />
+    <CambiosFuncionales />
+    <CambiosConfig />
+    <CambiosInterface />
+    <ComponentesImplicados />
+    <Workflows />
+    <CambiosMenu />
+    <CambiosPlantilla />
+    <CambiosForteINI />
+    <AccionesRealizadas>Archivo integracion añadido</AccionesRealizadas>
+    <AccionesRealizar />
+    <ClasesModificadas />
+    <OtrosCambios />
+    <Instalacion>Desarrollo Local</Instalacion>
+    <Objetivo>Version Inicial</Objetivo>
+    <Integracion>No integrado</Integracion>
+  </Version>
+  <History>
+    <Build>Manual desde PC Local. VS 2005</Build>
+    <FechaIntegracion>2011-03-02T09:44:09.664994+01:00</FechaIntegracion>
+    <UserID>di_rossello2</UserID>
+    <CambiosBBDD />
+    <DescripcionCambios>Archivo Inicial</DescripcionCambios>
+    <CambiosPowerMart />
+    <CambiosFuncionales />
+    <CambiosConfig />
+    <CambiosInterface />
+    <ComponentesImplicados />
+    <Workflows />
+    <CambiosMenu />
+    <CambiosPlantilla />
+    <CambiosForteINI />
+    <AccionesRealizadas>Archivo integracion añadido</AccionesRealizadas>
+    <AccionesRealizar />
+    <ClasesModificadas />
+    <OtrosCambios />
+    <Instalacion>Desarrollo Local</Instalacion>
+    <Objetivo>Version Inicial</Objetivo>
+    <Integracion>No integrado</Integracion>
+  </History>
+</Version>

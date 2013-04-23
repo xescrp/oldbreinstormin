@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F599A25C-2F47-42D5-8FDF-F9E31AFBECF1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DotNet.Tools</RootNamespace>
+    <AssemblyName>DotNet.Tools</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="RSS.NET, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ECI.Team\lib\RSS.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Cryptography\RijndaelSimple.cs" />
+    <Compile Include="IO\CopyEngine.cs" />
+    <Compile Include="Log\LogEngine.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Random\RandomEngine.cs" />
+    <Compile Include="Syndicate\RSSEvents.cs" />
+    <Compile Include="Syndicate\RSSPost.cs" />
+    <Compile Include="TerminalServer\ClientDisplay.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TerminalServer\ClientProtocolType.cs" />
+    <Compile Include="TerminalServer\GroupLazyLoadedProperty.cs" />
+    <Compile Include="TerminalServer\IClientDisplay.cs" />
+    <Compile Include="TerminalServer\IProtocolStatistics.cs" />
+    <Compile Include="TerminalServer\ITerminalServer.cs" />
+    <Compile Include="TerminalServer\ITerminalServerHandle.cs" />
+    <Compile Include="TerminalServer\ITerminalServicesManager.cs" />
+    <Compile Include="TerminalServer\ITerminalServicesProcess.cs" />
+    <Compile Include="TerminalServer\ITerminalServicesSession.cs" />
+    <Compile Include="TerminalServer\LazyLoadedProperty.cs" />
+    <Compile Include="TerminalServer\LocalServerHandle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TerminalServer\ProtocolStatistics.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TerminalServer\RemoteServerHandle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TerminalServer\TerminalServer.cs" />
+    <Compile Include="TerminalServer\TerminalServicesManager.cs" />
+    <Compile Include="TerminalServer\TerminalServicesProcess.cs" />
+    <Compile Include="TerminalServer\TerminalServicesSession.cs" />
+    <Compile Include="Tests\Testing.cs" />
+    <Compile Include="UI\Service_UIInstaller.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Service_UIInstaller.Designer.cs">
+      <DependentUpon>Service_UIInstaller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WIN32\CIM_DataFile.cs" />
+    <Compile Include="WIN32\Win32_DiskDrive.cs" />
+    <Compile Include="WIN32\Win32_ImpersonateLoginToken.cs" />
+    <Compile Include="WIN32\Win32_LogicalDisk.cs" />
+    <Compile Include="WIN32\Win32_MapNetworkDrive.cs" />
+    <Compile Include="WIN32\Win32_Process.cs" />
+    <Compile Include="WIN32\Win32_Service.cs" />
+    <Compile Include="WIN32\Win32_WTSSessions.cs" />
+    <Compile Include="WIN32\WmiAccess.cs" />
+    <Compile Include="WIN32\IWmiAccess.cs" />
+    <Compile Include="WIN32\FileApi.cs" />
+    <Compile Include="WIN32\ProcessApi.cs" />
+    <Compile Include="WIN32\ProcessFileHandleFinder.cs" />
+    <Compile Include="WIN32\Win32Api.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="UI\Service_UIInstaller.resx">
+      <DependentUpon>Service_UIInstaller.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Integracion\Version.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
